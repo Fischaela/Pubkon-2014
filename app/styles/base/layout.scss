@@ -4,3 +4,32 @@
 * {
 	box-sizing: border-box;
 }
+
+/**
+ * Copytext
+ */
+.l-copytext {
+	margin: 0 auto;
+	padding: 0 1.75em;
+	width: 100%;
+	max-width: 43.75rem;
+}
+
+/**
+ * Images
+ */
+.l-copytext img {
+	width: 100%;
+}
+
+.l-copytext ol img {
+	margin: 1em 0;
+}
+
+
+/**
+ * List
+ */
+.l-copytext ol {
+	margin-left: -2em;
+}
