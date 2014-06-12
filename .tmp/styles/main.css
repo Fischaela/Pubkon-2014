@@ -63,3 +63,9 @@ h2 {
   font-size: 4.375rem;
   font-style: italic;
   font-weight: 300; }
+
+/**
+ * General settings
+ */
+* {
+  box-sizing: border-box; }
