@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/**
+ * Import fonts
+ */
+@font-face {
+  font-family: 'Exo2';
+  src: url("fonts/Exo-2/Exo2-Black.woff") format("woff"), url("fonts/Exo-2/Exo2-Black.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  font-style: normal;
+  font-weight: 900; }
+
+@font-face {
+  font-family: 'Exo2';
+  src: url("fonts/Exo-2/Exo2-LightItalic.woff") format("woff"), url("fonts/Exo-2/Exo2-LightItalic.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  font-style: italic;
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Gentium';
+  src: url("fonts/Gentium-Basic/GenBasB.woff") format("woff"), url("fonts/Gentium-Basic/GenBasB.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  font-style: normal;
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Gentium';
+  src: url("fonts/Gentium-Basic/GenBasR.woff") format("woff"), url("fonts/Gentium-Basic/GenBasR.ttf") format("truetype");
+  /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  font-style: normal;
+  font-weight: 400; }
+
+/**
+ * Default font styling
+ */
+body {
+  color: #333333;
+  font-family: 'Gentium', Serif;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1.5em; }
+
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 125%; } }
+/**
+ * Headlines
+ */
+h1,
+h2 {
+  font-family: 'Exo2', Sans-Serif; }
+
+h1 {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 900;
+  line-height: 0.8em; }
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 5.625rem;
+    line-height: 0.8em; } }
+h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.2em;
+  margin-top: 1.125em; }
+
+@media screen and (min-width: 900px) {
+  h2 {
+    font-size: 5rem; } }
+.t-headline-decent {
+  font-size: 1.875rem;
+  font-style: italic;
+  font-weight: 300; }
+
+@media screen and (min-width: 900px) {
+  .t-headline-decent {
+    font-size: 4.375rem; } }
+/**
+ * Footer
+ */
+.t-footer {
+  color: white;
+  font-size: 0.875rem;
+  line-height: 1,4286em;
+  text-align: center; }
+
+/**
+ * Anchor tags
+ */
+a {
+  color: #00a0a0;
+  font-weight: 700;
+  text-decoration: none;
+  transition: border 0.1s ease-in; }
+
+a:hover,
+a:active {
+  border-bottom: 4px solid #00a0a0; }
+
+/**
+ * General settings
+ */
+* {
+  box-sizing: border-box; }
+
+/**
+ * Copytext
+ */
+.l-copytext {
+  margin: 0 auto;
+  padding: 0 1.75em;
+  width: 100%;
+  max-width: 43.75rem; }
+
+/**
+ * Images
+ */
+.l-copytext img {
+  width: 100%; }
+
+.l-copytext ol img {
+  margin: 1em 0; }
+
+/**
+ * List
+ */
+.l-copytext ol {
+  margin-left: -2em; }
+
+/**
+* Enable 100 percent height
+*/
+html,
+body {
+  height: 100%;
+  margin: 0; }
+
+/** Fullscreen container
+*/
+.title-container {
+  background-image: url("../images/bt14.001.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  margin: 0 0 4rem 0;
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+/**
+ * Headline
+ */
+.title-container h1 {
+  position: absolute;
+  left: 10%;
+  bottom: 10%; }
+
+.footer-container {
+  background-color: #333333;
+  padding: 2rem 1rem 4rem 1rem; }
