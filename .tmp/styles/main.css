@@ -80,7 +80,8 @@ h2 {
 a {
   color: #00a0a0;
   font-weight: 700;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: border 0.1s ease-in; }
 
 a:hover,
 a:active {
