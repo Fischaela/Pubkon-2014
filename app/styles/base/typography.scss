@@ -83,3 +83,17 @@ h2 {
 	line-height: 1,4286em;
 	text-align: center;
 }
+
+/**
+ * Anchor tags
+ */
+a {
+	color: #00a0a0;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	border-bottom: 4px solid #00a0a0;
+}
