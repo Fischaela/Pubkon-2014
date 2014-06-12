@@ -36,10 +36,13 @@
 body {
   color: #333333;
   font-family: 'Gentium', Serif;
-  font-size: 125%;
+  font-size: 100%;
   font-weight: 400;
   line-height: 1.5em; }
 
+@media screen and (min-width: 900px) {
+  body {
+    font-size: 125%; } }
 /**
  * Headlines
  */
@@ -49,22 +52,32 @@ h2 {
 
 h1 {
   color: white;
-  font-size: 5.625rem;
+  font-size: 2.25rem;
   font-weight: 900;
   line-height: 0.8em; }
 
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 5.625rem;
+    line-height: 0.8em; } }
 h2 {
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-style: italic;
   font-weight: 300;
   line-height: 1.2em;
   margin-top: 1.125em; }
 
+@media screen and (min-width: 900px) {
+  h2 {
+    font-size: 5rem; } }
 .t-headline-decent {
-  font-size: 4.375rem;
+  font-size: 1.875rem;
   font-style: italic;
   font-weight: 300; }
 
+@media screen and (min-width: 900px) {
+  .t-headline-decent {
+    font-size: 4.375rem; } }
 /**
  * Footer
  */
