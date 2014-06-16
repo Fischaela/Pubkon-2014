@@ -25,6 +25,7 @@ To use the complete repository with a local server, follow these steps:
 
    ```sh
    $ npm install
+   $ bower install
    ```
 
 6. Run the local server
