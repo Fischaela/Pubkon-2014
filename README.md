@@ -1,7 +1,7 @@
 Pubkon-2014
 ===========
 
-The example project for my talk on [Pubkon 2014][1]. Take a look at the project on [codepen.io][2]. Thanks to [Maciej Cegłowski][3] for allowing me to use his great talk from [Beyond Tellerrand conference 2014][4].
+The example project for my talk at [Pubkon 2014][1]. Take a look at the project on [codepen.io][2]. Thanks to [Maciej Cegłowski][3] for allowing me to use his great talk from [Beyond Tellerrand conference 2014][4].
 
 Download and use
 ----------------
